@@ -31,20 +31,20 @@
                     <h2>Preencha os campos abaixo para inserir uma nova tarefa</h2>
 
                     <label>Nome da tarefa: </br>
-                        <input type="text" id="nome-task" placeholder="Tiago Vale" required="required" name="nome" />
+                        <input type="text" id="nome-task" placeholder="Tarefa" required="required" name="nome" />
                     </label>
                     <label>Data: </br>
                         <input type="date" id="data-termino" required="required" name="nome" />
                     </label>
                     <label>Prioridade: </br>
-                        <select id = "prioridade">
+                        <select id = "prioridade" required="required">
                             <option value="Alta">Alta</option>
                             <option value="Normal">Normal</option>
                             <option value="Baixa">Baixa</option>
                         </select>
                     </label>
                     <label>Categoria: </br>
-                        <select id = "categoria">
+                        <select id = "categoria" required="required">
                             <option value="Pessoal">Pessoal</option>
                             <option value="Trabalho">Trabalho</option>
                             <option value="Estudo">Estudo</option>
@@ -52,7 +52,7 @@
                     </label>
 
                     <label>Status: </br>
-                        <select id = "status">
+                        <select id = "status" required="required">
                             <option value="TODO">TODO</option>
                             <option value="DOING">DOING</option>
                             <option value="DONE">DONE</option>

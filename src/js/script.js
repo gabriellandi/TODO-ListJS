@@ -190,7 +190,7 @@ const editaTask = (object) => {
     dataTask.value = tarefa.querySelector('p:nth-of-type(2)').textContent.replace('Data: ', '');
     categoriaTask.value = tarefa.querySelector('li:nth-of-type(1)').textContent.replace('Categoria: ', '');
     prioridadeTask.value = tarefa.querySelector('li:nth-of-type(2)').textContent.replace('Prioridade: ', '');
-    descricaoTask.value = tarefa.querySelector('p:nth-of-type(2)').textContent.replace('Descrição: ', '');
+    descricaoTask.value = tarefa.querySelector('p:nth-of-type(3)').textContent.replace('Descrição: ', '');
 
     object.remove();
     tarefa.remove();
